@@ -1,0 +1,855 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_bank_statement_advanced
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-21 12:46+0000\n"
+"PO-Revision-Date: 2025-11-21 12:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.statement_balance_report
+msgid "&amp;nbsp;"
+msgstr "&amp;nbsp;"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.statement_balance_report
+msgid "<span>Bank Statement Balances Report</span>"
+msgstr "<span>Banku-laburpeneko saldoen txostena</span>"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.statement_balance_report
+msgid "<span>Total</span>"
+msgstr "<span>Guztira</span>"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement__accounting_date
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_view_form
+msgid "Accounting Date"
+msgstr "Kontabilitate-data"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement__message_needaction
+msgid "Action Needed"
+msgstr "Ekintza behar da"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement__all_lines_processed
+msgid "All Lines Processed"
+msgstr "Prozesatutako lerro guztiak"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line_global__amount
+msgid "Amount"
+msgstr "Zenbatekoa"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_line_view_search
+msgid "Amount < 0"
+msgstr "Zenbatekoa < 0"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_line_view_search
+msgid "Amount > 0"
+msgstr "Zenbatekoa > 0"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement__message_attachment_count
+msgid "Attachment Count"
+msgstr "Eranskinen kopurua"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.bank_statement_automatic_reconcile_result_view_form
+msgid "Automatic Reconcile Result View"
+msgstr "Bateratze automatikoko emaitzen ikuspegia"
+
+#. module: account_bank_statement_advanced
+#. odoo-python
+#: code:addons/account_bank_statement_advanced/models/account_bank_statement.py:0
+#: code:addons/account_bank_statement_advanced/models/account_bank_statement_line.py:0
+#, python-format
+msgid "Automatic Reconcile remarks:"
+msgstr "Bateratze automatikoari buruzko oharrak:"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model,name:account_bank_statement_advanced.model_account_bank_statement
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_view_form
+msgid "Bank Statement"
+msgstr "Banku-laburpena"
+
+#. module: account_bank_statement_advanced
+#: model:ir.actions.act_window,name:account_bank_statement_advanced.bank_statement_balance_print_action
+#: model:ir.actions.report,name:account_bank_statement_advanced.statement_balance_report_action
+#: model:ir.model,name:account_bank_statement_advanced.model_bank_statement_balance_print
+#: model:ir.model,name:account_bank_statement_advanced.model_report_account_bank_statement_advanced_statement_balance_report
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.bank_statement_balance_print_view_form
+msgid "Bank Statement Balances Report"
+msgstr "Banku-laburpeneko balantzeen txostena"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model,name:account_bank_statement_advanced.model_account_bank_statement_line
+msgid "Bank Statement Line"
+msgstr "Banku-laburpeneko lerroa"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line_global__bank_statement_line_ids
+msgid "Bank Statement Lines"
+msgstr "Banku-laburpeneko lerroak"
+
+#. module: account_bank_statement_advanced
+#: model:ir.actions.act_window,name:account_bank_statement_advanced.account_bank_statement_action
+msgid "Bank Statements"
+msgstr "Banku-laburpenak"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_line_view_form
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_line_view_search
+msgid "Bank Transaction"
+msgstr "Banku-transakzioa"
+
+#. module: account_bank_statement_advanced
+#: model:ir.actions.act_window,name:account_bank_statement_advanced.account_bank_statement_line_action
+#: model:ir.ui.menu,name:account_bank_statement_advanced.account_bank_statement_line_menu
+msgid "Bank Transactions"
+msgstr "Banku-transakzioak"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model,name:account_bank_statement_advanced.model_account_bank_statement_line_global
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_line_global_view_form
+msgid "Batch Payment Info"
+msgstr "Multzokako ordainketari buruzko informazioa"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields.selection,name:account_bank_statement_advanced.selection__account_bank_statement_line_global__type__coda
+msgid "CODA"
+msgstr ""
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.bank_statement_balance_print_view_form
+msgid "Cancel"
+msgstr "Utzi"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_line_global_view_form
+msgid "Child Batch Payments"
+msgstr "Mendeko multzokako ordainketak"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line_global__child_ids
+msgid "Child Codes"
+msgstr "Mendeko kodeak"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.statement_balance_report
+msgid "Closing Balance"
+msgstr "Itxiera-balantzea"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line_global__code
+msgid "Code"
+msgstr "Kodea"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,help:account_bank_statement_advanced.field_account_bank_statement_line__globalisation_id
+msgid ""
+"Code to identify transactions belonging to the same globalisation level "
+"within a batch payment"
+msgstr ""
+"Multzokako ordainketetan globalizazio-maila berari dagozkion transakzioak identifikatzeko kodea"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line_global__company_id
+msgid "Company"
+msgstr "Enpresa"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_view_form
+msgid "Confirm"
+msgstr "Baieztatu"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields.selection,name:account_bank_statement_advanced.selection__account_bank_statement__state__confirm
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.view_bank_statement_search
+msgid "Confirmed"
+msgstr "Berretsita"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_line_view_search
+msgid "Confirmed Statement"
+msgstr "Berretsitako laburpena"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_line_view_search
+msgid "Confirmed Statement Lines"
+msgstr "Berretsitako laburpen-lerroak"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line__counterparty_bic
+msgid "Counterparty BIC"
+msgstr "Kontrako alderdiaren BIC zenbakia"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line__counterparty_currency
+msgid "Counterparty Currency"
+msgstr "Kontrako alderdiaren moneta"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line__counterparty_number
+msgid "Counterparty Number"
+msgstr "Kontrako alderdiaren zenbakia"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line_global__create_uid
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_bank_statement_automatic_reconcile_result_view__create_uid
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_bank_statement_balance_print__create_uid
+msgid "Created by"
+msgstr "Nork sortua"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line_global__create_date
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_bank_statement_automatic_reconcile_result_view__create_date
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_bank_statement_balance_print__create_date
+msgid "Created on"
+msgstr "Noiz sortua"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_line_view_search
+msgid "Credit"
+msgstr "Kreditua"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line__creditor_reference
+msgid "Creditor Reference"
+msgstr "Hartzekodunaren erreferentzia"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line__creditor_reference_type
+msgid "Creditor Reference Type"
+msgstr "Hartzekodunaren erreferentzia-mota"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,help:account_bank_statement_advanced.field_account_bank_statement_line__creditor_reference_type
+msgid ""
+"Creditor Reference Type. For SEPA (SCT) transactions, the <CdtrRefInf> type is recorded in this field.\n"
+"E.g. 'BBA' for belgian structured communication (Code 'SCOR', Issuer 'BBA'"
+msgstr ""
+"Hartzekodunaren erreferentzia-mota. SEPA (SCT) transakzioen kasuan, <CdtrRefInf> mota eremu honetan erregistratzen da.\n"
+"Adibidez, "BBA" Belgikako komunikazio egituratuetan (kodea: "SCOR", igorlea: "BBA")"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,help:account_bank_statement_advanced.field_account_bank_statement_line__creditor_reference
+msgid ""
+"Creditor Reference. For SEPA (SCT) transactions, the <CdtrRefInf> reference "
+"is recorded in this field."
+msgstr ""
+"Hartzekodunaren erreferentzia. SEPA (SCT) transakzioen kasuan, <CdtrRefInf> erreferentzia eremu honetan erregistratzen da."
+
+#. module: account_bank_statement_advanced
+#: model:ir.model,name:account_bank_statement_advanced.model_res_currency
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line_global__currency_id
+msgid "Currency"
+msgstr "Dibisa"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_bank_statement_balance_print__date_balance
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_line_view_search
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.statement_balance_report
+msgid "Date"
+msgstr "Data"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_line_view_search
+msgid "Debit"
+msgstr "Zorra"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line_global__display_name
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_bank_statement_automatic_reconcile_result_view__display_name
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_bank_statement_balance_print__display_name
+msgid "Display Name"
+msgstr "Izena erakutsi"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields.selection,name:account_bank_statement_advanced.selection__account_bank_statement__state__draft
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.view_bank_statement_search
+msgid "Draft"
+msgstr "Zirriborroa"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_line_view_search
+msgid "Draft Statement"
+msgstr "Laburpenaren zirriborroa"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_line_view_search
+msgid "Draft Statement Lines"
+msgstr "Laburpen-lerroen zirriborroa"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_bank_statement_balance_print__journal_ids
+msgid "Financial Journal(s)"
+msgstr "Finantza-egunkariak"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement__message_follower_ids
+msgid "Followers"
+msgstr "Jarraitzaileak"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Jarraitzaileak (bazkideak)"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement__foreign_currency
+msgid "Foreign Currency"
+msgstr "Atzerriko dibisa"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line__globalisation_amount
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_line_view_search
+msgid "Glob. Amount"
+msgstr "Kop. orokorra"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_line_view_search
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_view_form
+msgid "Glob. Id"
+msgstr "Id. orokorra"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line__globalisation_id
+msgid "Globalisation ID"
+msgstr "Orokortze IDa"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_line_view_search
+msgid "Group By"
+msgstr "Taldekatu honela:"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement__has_message
+msgid "Has Message"
+msgstr "Mezuak ditu"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line_global__id
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_bank_statement_automatic_reconcile_result_view__id
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_bank_statement_balance_print__id
+msgid "ID"
+msgstr "IDa"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields.selection,name:account_bank_statement_advanced.selection__account_bank_statement_line_global__type__iso20022
+msgid "ISO 20022"
+msgstr "ISO 20022"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,help:account_bank_statement_advanced.field_account_bank_statement__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Markatuta badago, mezu berriek arreta eskatzen dute."
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,help:account_bank_statement_advanced.field_account_bank_statement__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Markatuta badago, mezu batzuk ez dira ondo bidali."
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,help:account_bank_statement_advanced.field_account_bank_statement__accounting_date
+msgid ""
+"If set, the accounting entries associated with the bank statement transactions will default to this date.\n"
+"This is useful if the accounting period in which the entries should normally be booked is already closed."
+msgstr ""
+"Ezarriz gero banku-laburpeneko transakzioekin lotutako kontabilitate-idazpenek data hori izango dute lehenespenez.\n"
+"Erabilgarria da idazpenek erregistratu beharko luketen kontabilitate-epea dagoeneko itxita badago."
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement__import_format
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line__import_format
+msgid "Import Format"
+msgstr "Inportatzeko formatua"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement__import_format_readonly
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line__import_format_readonly
+msgid "Import Format Readonly"
+msgstr "Irakurtzeko soilik den inportatzeko formatua"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement__message_is_follower
+msgid "Is Follower"
+msgstr "Jarraitzaile bat da"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line__is_readonly
+msgid "Is Readonly"
+msgstr "Irakurtzeko soilik da"
+
+#. module: account_bank_statement_advanced
+#. odoo-python
+#: code:addons/account_bank_statement_advanced/models/account_bank_statement.py:0
+#, python-format
+msgid "It is not allowed to remove a confirmed Bank Statement."
+msgstr "Ezin dira ezabatu berretsitako banku-laburpenak."
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_line_view_search
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.statement_balance_report
+msgid "Journal"
+msgstr "Egunkaria"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line__journal_code
+msgid "Journal Code"
+msgstr "Egunkariaren kodea"
+
+#. module: account_bank_statement_advanced
+#. odoo-python
+#: code:addons/account_bank_statement_advanced/models/account_bank_statement.py:0
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_view_form
+#, python-format
+msgid "Journal Entries"
+msgstr "Egunkari-idazpenak"
+
+#. module: account_bank_statement_advanced
+#. odoo-python
+#: code:addons/account_bank_statement_advanced/models/account_bank_statement_line.py:0
+#: model:ir.model,name:account_bank_statement_advanced.model_account_move
+#, python-format
+msgid "Journal Entry"
+msgstr "Egunkariko idazpena"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model,name:account_bank_statement_advanced.model_account_move_line
+msgid "Journal Item"
+msgstr "Egunkariko oharra"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement__move_line_ids
+msgid "Journal Items"
+msgstr "Egunkari-elementuak"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.bank_statement_balance_print_view_form
+msgid "Keep empty for using all journals"
+msgstr "Utzi hutsik egunkari guztiak erabiltzeko"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line_global____last_update
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_bank_statement_automatic_reconcile_result_view____last_update
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_bank_statement_balance_print____last_update
+msgid "Last Modified on"
+msgstr "Azken aldatze-data:"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line_global__write_uid
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_bank_statement_automatic_reconcile_result_view__write_uid
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_bank_statement_balance_print__write_uid
+msgid "Last Updated by"
+msgstr "Nork eguneratua"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line_global__write_date
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_bank_statement_automatic_reconcile_result_view__write_date
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_bank_statement_balance_print__write_date
+msgid "Last Updated on"
+msgstr "Noiz eguneratua"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Eranskin nagusia"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields.selection,name:account_bank_statement_advanced.selection__account_bank_statement_line_global__type__manual
+msgid "Manual"
+msgstr "Eskuzkoa"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_line_view_form
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_view_form
+msgid "Manual Reconcile"
+msgstr "Eskuzko bateratzea"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,help:account_bank_statement_advanced.field_account_bank_statement__import_format
+#: model:ir.model.fields,help:account_bank_statement_advanced.field_account_bank_statement_line__import_format
+msgid ""
+"Manual encoding is assumed when import_format is not set.\n"
+"With manual encoding fields such as journal_id, balance_start, balance_end_real are always editable for 'draft' statements."
+msgstr ""
+"import_format ezartzen ez denean, eskuzko kodifikazioa erabiltzen da.\n"
+"Eskuzko kodifikazioarekin, journal_id, balance_start, balance_end_real eta beste eremu batzuk beti edita daitezke zirriborro-egoeran dauden laburpenetan."
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement__message_has_error
+msgid "Message Delivery error"
+msgstr "Errorea mezua entregatzean"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement__message_ids
+msgid "Messages"
+msgstr "Mezuak"
+
+#. module: account_bank_statement_advanced
+#. odoo-python
+#: code:addons/account_bank_statement_advanced/models/account_bank_statement.py:0
+#: code:addons/account_bank_statement_advanced/models/account_bank_statement_line.py:0
+#, python-format
+msgid ""
+"Missing reconcile widget.\n"
+"You should install one of the following modules:\n"
+"%s"
+msgstr ""
+"Bateratze-widgeta falta da.\n"
+"Instalatu honako modulu hauetako bat:\n"
+"%s"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_view_form
+msgid "Move"
+msgstr "Lekuz aldatu"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement__move_line_count
+msgid "Move Line Count"
+msgstr "Mugimendu-lerro kopurua"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.statement_balance_report
+msgid "Name"
+msgstr "Izena"
+
+#. module: account_bank_statement_advanced
+#. odoo-python
+#: code:addons/account_bank_statement_advanced/report/statement_balance_report.py:0
+#, python-format
+msgid "No financial journals found for your company!"
+msgstr "Ez da aurkitu finantza-egunkaririk enpresarako!"
+
+#. module: account_bank_statement_advanced
+#. odoo-python
+#: code:addons/account_bank_statement_advanced/report/statement_balance_report.py:0
+#, python-format
+msgid "No records found for your selection!"
+msgstr "Ez da aurkitu hautaketarekin bat datorren erregistrorik!"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_bank_statement_automatic_reconcile_result_view__note
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_line_view_form
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_line_view_search
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_line_view_tree
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_view_form
+msgid "Notes"
+msgstr "Oharrak"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Ekintza-kopurua"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement__message_has_error_counter
+msgid "Number of errors"
+msgstr "Errore-kopurua"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,help:account_bank_statement_advanced.field_account_bank_statement__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Ekintza bat behar duten mezuen kopurua"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,help:account_bank_statement_advanced.field_account_bank_statement__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Entregatzean erroreak izan dituzten mezuen kopurua"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line_global__name
+msgid "OBI"
+msgstr ""
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.bank_statement_automatic_reconcile_result_view_form
+msgid "Ok"
+msgstr "Ados"
+
+#. module: account_bank_statement_advanced
+#. odoo-python
+#: code:addons/account_bank_statement_advanced/models/account_move.py:0
+#, python-format
+msgid ""
+"Operation not allowed ! \n"
+"You cannot cancel an Accounting Entry that is linked to a Validated Bank Statement."
+msgstr ""
+"Ezin da egin eragiketa!\n"
+"Ezin dituzu bertan behera utzi baliozkotutako banku-laburpenei lotutako kontabilitate-idazpenak."
+
+#. module: account_bank_statement_advanced
+#. odoo-python
+#: code:addons/account_bank_statement_advanced/models/account_move_line.py:0
+#, python-format
+msgid ""
+"Operation not allowed ! \n"
+"You cannot delete an Accounting Entry that is linked to a Validated Bank Statement."
+msgstr ""
+"Ezin da egin eragiketa! \n"
+"Ezin dituzu ezabatu baliozkotutako banku-laburpenei lotutako kontabilitate-idazpenak."
+
+#. module: account_bank_statement_advanced
+#. odoo-python
+#: code:addons/account_bank_statement_advanced/models/account_move_line.py:0
+#, python-format
+msgid ""
+"Operation not allowed ! \n"
+"You cannot modify an Accounting Entry that is linked to a Validated Bank Statement. \n"
+"Statement = %(st_name)s\n"
+"Move = %(move)s (id:%(id)s)\n"
+"Update Values = %(vals)s"
+msgstr ""
+"Ezin da egin eragiketa! \n"
+"Ezin dituzu aldatu baliozkotutako banku-laburpenei lotutako kontabilitate-idazpenak.\n"
+"Laburpena = %(st_name)s\n"
+"Mugimendua = %(move)s (id:%(id)s)\n"
+"Eguneratu balioak = %(vals)s"
+
+#. module: account_bank_statement_advanced
+#. odoo-python
+#: code:addons/account_bank_statement_advanced/models/account_move.py:0
+#, python-format
+msgid ""
+"Operation not allowed ! \n"
+"You cannot unpost an Accounting Entry that is linked to a Validated Bank Statement."
+msgstr ""
+"Ezin da egin eragiketa! \n"
+"Ezin dituzu kendu baliozkotutako banku-laburpenei lotutako kontabilitate-idazpenen argitalpenak."
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,help:account_bank_statement_advanced.field_account_bank_statement_line_global__name
+msgid "Originator to Beneficiary Information"
+msgstr "Agindu-emailearen eta onuradunaren arteko informazioa"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line_global__parent_id
+msgid "Parent Code"
+msgstr "Kode nagusia"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line__payment_reference
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line_global__payment_reference
+msgid "Payment Reference"
+msgstr "Ordainketa-erreferentzia"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,help:account_bank_statement_advanced.field_account_bank_statement_line__payment_reference
+msgid ""
+"Payment Reference. For SEPA (SCT or SDD) transactions, the EndToEndReference"
+" is recorded in this field."
+msgstr ""
+"Ordainketa-erreferentzia. SEPA (SCT edo SDD) transakzioetan, EndToEndReference erregistratzen da eremu honetan."
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,help:account_bank_statement_advanced.field_account_bank_statement_line_global__payment_reference
+msgid ""
+"Payment Reference. For SEPA (SCT or SDD) transactions, the "
+"PaymentInformationIdentification is recorded in this field."
+msgstr ""
+"Ordainketa-erreferentzia. SEPA (SCT edo SDD) transakzioetan, PaymentInformationIdentification erregistratzen da eremu honetan."
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.bank_statement_balance_print_view_form
+msgid "Print"
+msgstr "Inprimatu"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line__reconcile_state
+msgid "Reconcile State"
+msgstr "Bateratzearen egoera"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields.selection,name:account_bank_statement_advanced.selection__account_bank_statement_line__reconcile_state__reconciled
+msgid "Reconciled"
+msgstr "Kontziliatuta"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement__name
+msgid "Reference"
+msgstr "Erreferentzia"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_view_form
+msgid "Reset to Draft"
+msgstr "Berrezarri zirriborro gisa"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.bank_statement_automatic_reconcile_result_view_form
+msgid "Results :"
+msgstr "Baldintzak:"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_line_view_form
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_view_form
+msgid "Revert reconciliation"
+msgstr "Leheneratu kontziliazioa"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_line_view_search
+msgid "Search Bank Statements Line"
+msgstr "Bilatu kontu-laburpenen lerroa"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.bank_statement_balance_print_view_form
+msgid "Select Balance Date"
+msgstr "Hautatu saldoaren data"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.bank_statement_balance_print_view_form
+msgid "Select Financial Journals"
+msgstr "Hautatu finantza-egunkariak"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,help:account_bank_statement_advanced.field_bank_statement_balance_print__journal_ids
+msgid ""
+"Select here the Financial Journal(s) you want to include in your Bank "
+"Statement Balances Report."
+msgstr ""
+"Hautatu kontu-laburpenaren balantzeen txostenean sartu nahi dituzun finantza-egunkariak hemen."
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,help:account_bank_statement_advanced.field_account_bank_statement_line__journal_code
+msgid ""
+"Shorter name used for display. The journal entries of this journal will also"
+" be named using this prefix by default."
+msgstr ""
+"Bistaratzeko erabiltzen den izen laburragoa. Egunkari honetako partidak ere aurrizki hori erabilita izendatuko dira lehenespenez."
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_line_view_search
+msgid "Statement"
+msgstr "Adierazpena"
+
+#. module: account_bank_statement_advanced
+#. odoo-python
+#: code:addons/account_bank_statement_advanced/models/account_bank_statement.py:0
+#, python-format
+msgid ""
+"Statement %(st_name)s, Journal %(journal)s, dated %(date)s has already been "
+"encoded."
+msgstr ""
+"Jada erregistratu da %(journal)s egunkariko %(st_name)s laburpena, data honetan: %(date)s."
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line__statement_date
+msgid "Statement Date"
+msgstr "Laburpenaren data"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_line_view_search
+msgid "Statement Lines to be processed"
+msgstr "Prozesatu beharreko laburpeneko lerroak"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line__statement_state
+msgid "Statement State"
+msgstr "Laburpenaren egoera"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement__state
+msgid "Status"
+msgstr "Egoera"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,help:account_bank_statement_advanced.field_account_bank_statement__all_lines_processed
+msgid "Technical field indicating that all statement lines are processed."
+msgstr "Laburpeneko lerro guztiak prozesatuta daudela adierazten duen eremu teknikoa."
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,help:account_bank_statement_advanced.field_account_bank_statement__import_format_readonly
+#: model:ir.model.fields,help:account_bank_statement_advanced.field_account_bank_statement_line__import_format_readonly
+msgid ""
+"Technical field that is set by the import_format.\n"
+"The following statement fields become readonly when this flag is set:\n"
+"date, balance_start, balance_end_real, journal_id."
+msgstr ""
+"Import_format eremuak ezarritako eremu teknikoa.\n"
+"Laburpeneko eremu hauek "irakurtzeko soilik" modura aldatzen dira marka hori ezartzean:\n"
+"fecha, balance_start, balance_end_real, journal_id."
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.constraint,message:account_bank_statement_advanced.constraint_account_bank_statement_line_global_code_uniq
+msgid "The code must be unique !"
+msgstr "Kodeak esklusiboa izan behar du!"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line__transaction_date
+msgid "Transaction Date"
+msgstr "Transakzio-data"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_line_global_view_form
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_view_form
+msgid "Transactions"
+msgstr "Transakzioak"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model,name:account_bank_statement_advanced.model_bank_statement_automatic_reconcile_result_view
+msgid "Transient Model to display Automatic Reconcile results"
+msgstr "Berdinkatze automatikoaren emaitzak bistaratzeko modelo iragankorra"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line_global__type
+msgid "Type"
+msgstr "Mota"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields.selection,name:account_bank_statement_advanced.selection__account_bank_statement_line__reconcile_state__unreconciled
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_line_view_search
+msgid "Unreconciled"
+msgstr "Desberdinkatuta"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement_line__val_date
+msgid "Value Date"
+msgstr "Balioaren data"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_view_form
+msgid "View Details"
+msgstr "Ikusi xehetasunak"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,field_description:account_bank_statement_advanced.field_account_bank_statement__website_message_ids
+msgid "Website Messages"
+msgstr "Webguneko mezuak"
+
+#. module: account_bank_statement_advanced
+#: model:ir.model.fields,help:account_bank_statement_advanced.field_account_bank_statement__website_message_ids
+msgid "Website communication history"
+msgstr "Web-komunikazioaren historia"
+
+#. module: account_bank_statement_advanced
+#. odoo-python
+#: code:addons/account_bank_statement_advanced/models/account_bank_statement.py:0
+#, python-format
+msgid ""
+"You cannot duplicate a bank statement with import format "
+"'%(import_format)s'."
+msgstr ""
+"Ezin da "%(import_format)s" inportatze-formatua duen kontu-laburpenik bikoiztu."
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.account_bank_statement_view_form
+msgid "e.g. BNK01-23-015"
+msgstr "adib. BNK01-23-015"
+
+#. module: account_bank_statement_advanced
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_advanced.bank_statement_balance_print_view_form
+msgid "or"
+msgstr "edo"
