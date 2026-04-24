@@ -301,6 +301,7 @@ class AccountBankStatementLine(models.Model):
                 vals["transaction_date"] = fields.Date.context_today(self)
 
         # do not create amls when no amount (e.g. globalisation line)
+        absls_no_amount = self.env["account.bank.statement.line"]
         if vals_list_no_amount:
             absls_no_amount = super(ABSL, self).create(vals_list_no_amount)
             super(ABSL, absls_no_amount).write({"state": "posted"})
@@ -314,7 +315,7 @@ class AccountBankStatementLine(models.Model):
         absls_skip_sync = super(AccountBankStatementLine, self_no_sync).create(
             vals_list_skip_sync
         )
-        return absls_skip_sync + super().create(vals_list)
+        return absls_skip_sync + absls_no_amount + super().create(vals_list)
 
     def write(self, vals):
         lines = self.browse()
