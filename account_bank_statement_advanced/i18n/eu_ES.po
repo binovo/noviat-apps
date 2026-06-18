@@ -242,7 +242,7 @@ msgid ""
 "E.g. 'BBA' for belgian structured communication (Code 'SCOR', Issuer 'BBA'"
 msgstr ""
 "Hartzekodunaren erreferentzia-mota. SEPA (SCT) transakzioen kasuan, <CdtrRefInf> mota eremu honetan erregistratzen da.\n"
-"Adibidez, "BBA" Belgikako komunikazio egituratuetan (kodea: "SCOR", igorlea: "BBA")"
+"Adibidez, 'BBA' Belgikako komunikazio egituratuetan (kodea: 'SCOR', igorlea: 'BBA')"
 
 #. module: account_bank_statement_advanced
 #: model:ir.model.fields,help:account_bank_statement_advanced.field_account_bank_statement_line__creditor_reference
