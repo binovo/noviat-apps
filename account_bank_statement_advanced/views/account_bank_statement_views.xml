@@ -193,6 +193,7 @@
                                     />
                                     <field
                                         name="transaction_date"
+                                        optional="show"
                                         attrs="{'readonly': [('is_readonly', '=', True)]}"
                                     />
                                     <field
